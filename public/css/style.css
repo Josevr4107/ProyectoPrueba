@@ -1,0 +1,152 @@
+/* body{
+
+    font-size: 1.5rem;
+}
+
+
+.navbar-dark{
+    background-color: rgba(0, 0, 0, 0.90) !important;
+}
+
+.nav-link{
+    color: #fff !important;
+
+} 
+
+
+Show it is fixed to the top
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+  
+
+*/
+
+
+:root {
+    --black: #000;
+    --dark: #16191C;
+    --dark-x: #1E2126; 
+    --light: #ffffff;
+}
+
+
+@font-face {
+    font-family: "AgencyFB";
+    src: url("../fonts/agencyfb-regular.otf");
+    }
+
+
+body {
+    font-family: 'AgencyFB';
+    font-weight: 300;
+    font-size : 1.5rem;
+    letter-spacing : 1px;
+}
+
+.text-light { color: var(--light) !important; }
+.bg-dark { background-color: var(--black) !important; }
+.bg-dark-x { background-color: var(--dark-x); }
+
+/* 
+.navbar{
+
+    box-shadow: 2x 2x 5px rgb(255, 49, 49);
+}
+ */
+
+.navbar .nav-item .nav-link{
+
+    color: #ffffff; 
+}
+
+ul.navbar-nav li.active {
+    font-weight: bold
+}
+/* 
+ul.navbar-nav li:hover {
+    font-weight: bold;
+} */
+
+.page-item.active .page-link {
+    
+    background-color: rgb(255, 0, 0) !important;
+    color: azure !important;
+
+    /* border: 1px solid black; */
+}
+
+.page-link {
+    color: black !important;
+    width: 100%;
+    text-align: center;
+}
+
+.dataTables_paginate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div.dt-buttons{
+    color: red;
+
+
+}
+
+.wrappeo{
+    width:200px;
+    padding:20px;
+    height: 150px;
+    }
+
+.btn {
+    min-height: 3rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.form-control {
+    min-height: 3rem;
+    font-size: 1.5rem;
+    line-height: initial;
+    color: var(--dark-x);
+    background:var(--light);
+}
+.form-control:focus {
+    background-color: var(--black);
+    outline: none;
+}
+
+
+/* CARRUSEL */
+
+/* .bg-overlay{
+    background: rgba(255, 0, 0, .5);
+} */
+
+.img-1 {
+    background-image: url('/img/img1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('/img/img2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.img {
+    background-size: cover;
+    background-position: center;
+}
+
+.content-header{
+    padding-top: 5rem;
+}
+
+.dropdown-item:visited{
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
